@@ -4,14 +4,20 @@
     padding: 20px;
   }
   nav,
-  .teams-container {
+  .teams-container,
+  .facts-card-container,
+  .sponsors-img-container {
     flex-direction: column;
   }
   .teams-img-container {
     grid-template-columns: 1fr;
   }
-  .teams-content {
+  .teams-content,
+  .facts-card-container {
     padding: 0 20px;
+  }
+  .facts-card-container {
+    gap: 20px;
   }
 }
 /* Medium Devices */
@@ -20,7 +26,8 @@
     padding: 50px;
   }
   nav,
-  .teams-container {
+  .teams-container,
+  .sponsors-img-container {
     flex-direction: column;
   }
 }
